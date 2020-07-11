@@ -1,0 +1,101 @@
+
+@media (max-width: 575.98px) { 
+		/*
+			banned connector
+		*/
+		.brdr {
+		    border-right: none;
+		}
+
+		/*
+			style
+		*/
+		#Header{
+			height: auto;
+		}
+		.navFixed {
+		    left: 6%;
+		    right: 6%;
+		}
+		.colls {
+		    margin: 0 5%;
+		}
+		.brnd-n h1 {
+		    font-size: 4.5rem;
+		}
+		.head-content .h-descripe {
+		    padding-top: .5rem;
+		}
+		#confa-ajda .confarenc ul li {
+		    display: flex;
+		    flex-direction: column;
+		    justify-content: center;
+		    width: 30%;
+		    flex-wrap: wrap;
+		    float: left;
+		    overflow: hidden;
+		}
+		#confa-ajda .confarenc{
+				overflow: hidden;
+		}
+		#confa-ajda .confarenc .first:before{
+			content:none;
+		}
+		#confa-ajda .confarenc .first:after{
+			content:none;
+		}
+		#confa-ajda .confarenc .third:before{
+
+			content:none;
+		}
+		#confa-ajda .confarenc .third:after{
+			content:none;
+		}
+		#confa-ajda .confarenc ul{padding-inline-start: 40px; }
+		#confa-ajda .ajenda .brdss .red {
+		    top: 44.5%;
+		}
+		#about-sec .video-ex { margin-top:20px; }
+		#business-ex .video-ex { margin-top:20px; }
+		#confa-ajda .ajenda .seTim {
+		    display: block; 
+		}
+		#confa-ajda .ajenda .seTim h2,#confa-ajda .ajenda .seTim h1{
+			text-align: center;
+		}
+		#confa-ajda .ajenda .dtls:after {
+		    height: 43%;
+		    bottom: -87px;
+		}
+ }
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+		#Header{
+			height: auto;
+		}
+		.navFixed {
+		    left: 6%;
+		    right: 6%;
+		}
+		.colls {
+		    margin: 0 5%;
+		}
+		.brnd-n h1 {
+		    font-size: 4.5rem;
+		}
+		#confa-ajda .ajenda .brdss .red {
+		    top: 45%;
+		}
+		#about-sec .video-ex { margin-top:20px; }
+		#business-ex .video-ex { margin-top:20px; }
+		#confa-ajda .ajenda .dtls:after {
+		    height: 43%;
+		    bottom: -87px;
+		}
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.colls {
+		    margin: 0%;
+		}
+}
